@@ -1,0 +1,37 @@
+CREATE TABLE user_entity (
+    id INTEGER NOT NULL UNIQUE  PRIMARY KEY AUTOINCREMENT,
+    userFirstName TEXT NOT NULL,
+    userLastName TEXT NOT NULL,
+    userGendar TEXT NOT NULL,
+    userEmail TEXT NOT NULL,
+    userAge INTEGER NOT NULL
+);
+
+
+selectAll:
+SELECT *
+FROM user_entity;
+
+getUser:
+SELECT * FROM user_entity
+WHERE id = :id;
+
+removeUser:
+DELETE FROM user_entity
+WHERE id = :id;
+
+
+
+insertUser:
+INSERT OR REPLACE
+INTO user_entity (
+    id,
+    userFirstName,
+    userLastName,
+    userGendar,
+    userEmail,
+    userAge
+) VALUES (?, ?, ?,?, ?, ?);
+
+
+
