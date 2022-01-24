@@ -1,6 +1,6 @@
 # Sql-Delight-Example01
 ## Developed by Mahdi Razzaghi Ghaleh
-**first example of sql-delight**
+**simple example of sql-delight**
 
  
 ### What is SqlDelight?
