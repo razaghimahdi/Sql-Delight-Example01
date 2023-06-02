@@ -4,6 +4,9 @@
 
 **simple example of sql-delight**
 
+## Give a Star! ⭐
+If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+
 ### What is SqlDelight?
 
 Kotlin Multiplatform is one of the most interesting trends in mobile development this year. 
